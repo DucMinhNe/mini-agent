@@ -16,3 +16,7 @@ class OpenAIClient:
     def stream(self, *args, **kwargs):
         """Stream OpenAI tokens."""
         raise NotImplementedError
+
+
+def _build_messages(history):
+    return [{'role': h['role'], 'content': h['content']} for h in history]
