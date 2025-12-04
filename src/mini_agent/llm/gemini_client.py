@@ -16,3 +16,7 @@ class GeminiClient:
     def stream(self, *args, **kwargs):
         """Stream Gemini tokens."""
         raise NotImplementedError
+
+
+def _adapt_chunk(chunk):
+    return chunk.text if hasattr(chunk, 'text') else str(chunk)
