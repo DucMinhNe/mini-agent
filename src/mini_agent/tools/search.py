@@ -20,3 +20,6 @@ class SearchTool:
 
 def _format_results(results):
     return '\n'.join(f'- {r}' for r in results[:5])
+
+
+# TODO: handle rate limiting
