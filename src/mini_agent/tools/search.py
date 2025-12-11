@@ -16,3 +16,7 @@ class SearchTool:
     def run(self, *args, **kwargs):
         """Run DuckDuckGo search."""
         raise NotImplementedError
+
+
+def _format_results(results):
+    return '\n'.join(f'- {r}' for r in results[:5])
