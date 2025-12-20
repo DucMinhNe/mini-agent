@@ -16,3 +16,7 @@ class FileReaderTool:
     def run(self, *args, **kwargs):
         """Read a file path."""
         raise NotImplementedError
+
+
+def _is_safe(path):
+    return '..' not in path
