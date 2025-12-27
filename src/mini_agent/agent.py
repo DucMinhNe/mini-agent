@@ -20,3 +20,7 @@ class Agent:
     def _select_tool(self, *args, **kwargs):
         """Pick a tool for this step."""
         raise NotImplementedError
+
+
+def _format_history(history):
+    return [{'role': h.get('role'), 'content': h.get('content')} for h in history]
