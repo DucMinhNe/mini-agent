@@ -28,3 +28,6 @@ def _format_history(history):
 
 def _dispatch(tool, query):
     return tool.run(query)
+
+
+# refactored loop step to be iterable
