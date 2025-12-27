@@ -24,3 +24,7 @@ class Agent:
 
 def _format_history(history):
     return [{'role': h.get('role'), 'content': h.get('content')} for h in history]
+
+
+def _dispatch(tool, query):
+    return tool.run(query)
