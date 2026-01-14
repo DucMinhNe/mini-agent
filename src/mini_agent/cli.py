@@ -10,3 +10,7 @@ def main():
 def chat(question: str):
     """Single-shot chat command."""
     raise NotImplementedError
+
+
+def _print_banner():
+    print('mini-agent 🤖')
