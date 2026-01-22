@@ -10,3 +10,8 @@ def create_app():
 def chat_endpoint(req):
     """Handle POST /chat."""
     raise NotImplementedError
+
+
+async def _stream_iter(agent, query):
+    for token in agent.stream(query):
+        yield token
