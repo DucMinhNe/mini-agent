@@ -20,3 +20,9 @@ class OpenAIClient:
 
 def _build_messages(history):
     return [{'role': h['role'], 'content': h['content']} for h in history]
+
+
+# fix: yield tokens in order
+
+
+# really fix this time
