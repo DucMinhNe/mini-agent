@@ -16,3 +16,7 @@ class AgentSwarm:
     def aggregate(self, *args, **kwargs):
         """Aggregate responses."""
         raise NotImplementedError
+
+
+def _route(query, agents):
+    return agents[hash(query) % len(agents)]
