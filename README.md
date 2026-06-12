@@ -2,7 +2,7 @@
 
 > A lightweight, modular AI agent framework with pluggable tools, multi-LLM support, and a FastAPI server.
 
-![license](https://img.shields.io/badge/license-MIT-green.svg) ![python](https://img.shields.io/badge/python-3.10+-blue.svg) ![code style](https://img.shields.io/badge/code%20style-black-000000.svg) ![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg) ![coverage](https://img.shields.io/badge/coverage-87%25-brightgreen.svg) ![PRs](https://img.shields.io/badge/PRs-welcome-orange.svg)
+[![CI](https://github.com/DucMinhNe/mini-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/DucMinhNe/mini-agent/actions/workflows/ci.yml) ![license](https://img.shields.io/badge/license-MIT-green.svg) ![python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg) ![code style](https://img.shields.io/badge/code%20style-black-000000.svg) ![PRs](https://img.shields.io/badge/PRs-welcome-orange.svg)
 
 ---
 
