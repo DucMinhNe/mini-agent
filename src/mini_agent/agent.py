@@ -13,6 +13,10 @@ class Agent:
         """Run a single turn."""
         raise NotImplementedError
 
+    def stream(self, *args, **kwargs):
+        """Stream completion tokens."""
+        raise NotImplementedError
+
     def step(self, *args, **kwargs):
         """One agent step."""
         raise NotImplementedError
